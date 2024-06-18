@@ -45,25 +45,25 @@ import 'swiper/css/pagination'
 
 const slides = [
 	{
-		image: '/assets/images/home/carousel/1.png',
+		image: '/images/home/carousel/1.png',
 		title: 'M series',
 		subtitle: 'All-in-one intelligent cash register equipment',
 		text: 'Integrated cash box, auxiliary screen, integrated and flexible deployment'
 	},
 	{
-		image: '/assets/images/home/carousel/2.png',
+		image: '/images/home/carousel/2.png',
 		title: 'D series',
 		subtitle: 'Modular intelligent cash register equipment',
 		text: 'The main and auxiliary screens can be raised and lowered to adapt to various desktop environments'
 	},
 	{
-		image: '/assets/images/home/carousel/3.png',
+		image: '/images/home/carousel/3.png',
 		title: 'T series',
 		subtitle: 'Excellent customer interaction experience',
 		text: 'Peripherals can be flexibly and freely combined to adapt to different cash register environments.'
 	},
 	{
-		image: '/assets/images/home/carousel/4.png',
+		image: '/images/home/carousel/4.png',
 		title: 'C2700 series',
 		subtitle: 'Integrated self-service terminal',
 		text: 'Multiple installation methods, flexible deployment of various scenarios'
