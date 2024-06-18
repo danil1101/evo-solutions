@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
 	{
@@ -24,14 +24,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-	history: createWebHashHistory('/'),
-	scrollBehavior(to, from, savedPosition) {
-		if (to.hash) {
-			return {
-				el: to.hash
-			}
-		}
-	},
+	history: createWebHistory(),
 	routes
 })
 
