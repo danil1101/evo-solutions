@@ -31,26 +31,26 @@
 
 <script setup lang="ts">
 const types = [
-	{ name: 'Open Store', image: '/src/assets/images/services/types/1.png' },
+	{ name: 'Open Store', image: '/images/services/types/1.png' },
 	{
 		name: 'Software and Hardware Installation',
-		image: '/src/assets/images/services/types/2.png'
+		image: '/images/services/types/2.png'
 	},
 	{
 		name: 'Software and Hardware Upgrades',
-		image: '/src/assets/images/services/types/3.png'
+		image: '/images/services/types/3.png'
 	},
 	{
 		name: 'Software and Hardware After-sales',
-		image: '/src/assets/images/services/types/4.png'
+		image: '/images/services/types/4.png'
 	},
 	{
 		name: 'Specific On-duty',
-		image: '/src/assets/images/services/types/5.png'
+		image: '/images/services/types/5.png'
 	},
-	{ name: 'Inventory', image: '/src/assets/images/services/types/6.png' },
-	{ name: 'On-site', image: '/src/assets/images/services/types/7.png' },
-	{ name: 'Close Store', image: '/src/assets/images/services/types/8.png' }
+	{ name: 'Inventory', image: '/images/services/types/6.png' },
+	{ name: 'On-site', image: '/images/services/types/7.png' },
+	{ name: 'Close Store', image: '/images/services/types/8.png' }
 ]
 </script>
 

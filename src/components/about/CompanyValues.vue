@@ -37,19 +37,19 @@ const stats = [
 		name: 'Innovation',
 		description:
 			'Combining customer needs with industry trends, new technologies such as Internet of Things (IoT) and 5G are used to provide innovative products and business models',
-		icon: '/src/assets/images/about/company-values/1.svg'
+		icon: '/images/about/company-values/1.svg'
 	},
 	{
 		name: 'Intelligent',
 		description:
 			'Build intelligent solutions for business enterprises around cloud platforms, middle platforms, and big data',
-		icon: '/src/assets/images/about/company-values/2.svg'
+		icon: '/images/about/company-values/2.svg'
 	},
 	{
 		name: 'Initiate',
 		description:
 			'As the company undergoes restructuring and enters a new phase, it aims to embrace a fresh image and embark on a journey into the realm of digital new retail',
-		icon: '/src/assets/images/about/company-values/3.svg'
+		icon: '/images/about/company-values/3.svg'
 	}
 ]
 </script>

@@ -30,15 +30,15 @@
 const stats = [
 	{
 		name: 'To become a leading provider of comprehensive services for business intelligence devices',
-		image: '/src/assets/images/about/purpose/1.jpg'
+		image: '/images/about/purpose/1.jpg'
 	},
 	{
 		name: 'Honesty and happiness, positive and innovative',
-		image: '/src/assets/images/about/purpose/2.jpg'
+		image: '/images/about/purpose/2.jpg'
 	},
 	{
 		name: 'Accompany customers to grow together',
-		image: '/src/assets/images/about/purpose/3.jpg'
+		image: '/images/about/purpose/3.jpg'
 	}
 ]
 </script>
