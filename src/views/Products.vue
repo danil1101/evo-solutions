@@ -81,31 +81,31 @@ const sliders = ref<ISlider[]>([
 				id: 'pos-series-1',
 				title: 'T SERIES',
 				desc: 'Fashionably Tough, Powerfully Performant Enjoy a Smooth Retail Transaction Experience',
-				target: '/src/assets/images/products/pos-series/t-series.png'
+				target: '/images/products/pos-series/t-series.png'
 			},
 			{
 				id: 'pos-series-2',
 				title: 'K Series',
 				desc: 'Desktop  POS. Smart. Bright. Full of Might.',
-				target: '/src/assets/images/products/pos-series/k-series.png'
+				target: '/images/products/pos-series/k-series.png'
 			},
 			{
 				id: 'pos-series-3',
 				title: 'D Series',
 				desc: 'Multi-scenari, Multi-mode, Human-computer interaction experience',
-				target: '/src/assets/images/products/pos-series/d-series.png'
+				target: '/images/products/pos-series/d-series.png'
 			},
 			{
 				id: 'pos-series-4',
 				title: 'M series',
 				desc: 'Fully-integrated, space-saving, flexible deployment',
-				target: '/src/assets/images/products/pos-series/m-series.png'
+				target: '/images/products/pos-series/m-series.png'
 			},
 			{
 				id: 'pos-series-5',
 				title: 'D Series',
 				desc: 'Multi-scenari, Multi-mode, Human-computer interaction experience',
-				target: '/src/assets/images/products/pos-series/d-series.png'
+				target: '/images/products/pos-series/d-series.png'
 			}
 		]
 	},
@@ -118,19 +118,19 @@ const sliders = ref<ISlider[]>([
 				id: 'self-service-1',
 				title: 'C1 500',
 				desc: 'Compact and light, it can be used for',
-				target: '/src/assets/images/products/self-services/c1-500.png'
+				target: '/images/products/self-services/c1-500.png'
 			},
 			{
 				id: 'self-service-2',
 				title: 'C2 700',
 				desc: 'Large screen, ultra-thin design, multi-scene industry-wide coverage',
-				target: '/src/assets/images/products/self-services/c2-700.png'
+				target: '/images/products/self-services/c2-700.png'
 			},
 			{
 				id: 'self-service-3',
 				title: 'C2 400',
 				desc: 'Ultra-thin design, flexible configuration, multi-scene industry-wide coverage',
-				target: '/src/assets/images/products/self-services/c2-400.png'
+				target: '/images/products/self-services/c2-400.png'
 			}
 		]
 	},
@@ -143,19 +143,19 @@ const sliders = ref<ISlider[]>([
 				id: 'digital-signage-1',
 				title: 'I 1000',
 				desc: 'Ultra-clear vision, ultimate enjoyment',
-				target: '/src/assets/images/products/digital-signage/i-1000.jpg'
+				target: '/images/products/digital-signage/i-1000.jpg'
 			},
 			{
 				id: 'digital-signage-2',
 				title: 'I 500',
 				desc: 'Ultra-clear vision, ultimate enjoyment',
-				target: '/src/assets/images/products/digital-signage/i-500.png'
+				target: '/images/products/digital-signage/i-500.png'
 			},
 			{
 				id: 'digital-signage-3',
 				title: 'I2 200',
 				desc: 'The vision that nuanced details are about to come out',
-				target: '/src/assets/images/products/digital-signage/i2-200.png'
+				target: '/images/products/digital-signage/i2-200.png'
 			}
 		]
 	}

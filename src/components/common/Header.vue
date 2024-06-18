@@ -17,21 +17,22 @@
 					</button>
 				</div>
 				<div class="hidden lg:flex lg:gap-x-12">
-					<a
+					<router-link
 						v-for="item in navigation"
 						:key="item.name"
-						:href="item.href"
+						:to="item.href"
 						class="text-lg font-semibold leading-6 text-gray-900"
-						>{{ item.name }}</a
 					>
+						{{ item.name }}
+					</router-link>
 				</div>
 				<div class="hidden lg:flex lg:flex-1 lg:justify-end">
-					<a
+					<router-link
 						href="#footer"
 						class="inline-flex items-center rounded-md bg-green px-4 py-3 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 					>
 						Contact Us
-					</a>
+					</router-link>
 				</div>
 			</nav>
 			<Dialog
@@ -56,13 +57,14 @@
 						class="mt-2 divide-y divide-gray-500/10 h-full flex-col flex justify-between"
 					>
 						<div class="space-y-2 py-6">
-							<a
+							<router-link
 								v-for="item in navigation"
 								:key="item.name"
-								:href="item.href"
+								:to="item.href"
 								class="-mx-3 block px-3 py-2 text-xl font-semibold leading-7"
-								>{{ item.name }}
-							</a>
+							>
+								{{ item.name }}
+							</router-link>
 						</div>
 						<a
 							href="#footer"
