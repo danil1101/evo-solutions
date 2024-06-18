@@ -50,15 +50,28 @@
 	</div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { ref } from 'vue'
 import { Navigation } from 'swiper/modules'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
+import { Swiper as SwiperClass } from 'swiper/types'
 
-const sliders = ref([
+interface ISlider {
+	title: string
+	activeIndex: number
+	swiper: SwiperClass
+	slides: {
+		id: string
+		title: string
+		desc: string
+		target: string
+	}[]
+}
+
+const sliders = ref<ISlider[]>([
 	{
 		title: 'POS series',
 		activeIndex: 0,
@@ -148,14 +161,14 @@ const sliders = ref([
 	}
 ])
 
-const updateActiveSlide = (indexSlider, indexSlide) => {
+const updateActiveSlide = (indexSlider: number, indexSlide: number) => {
 	sliders.value[indexSlider].activeIndex = indexSlide
 	const target = sliders.value[indexSlider].slides[indexSlide].id
 	const container = document.querySelectorAll('.wrapper')[indexSlider]
 	container
 		.querySelectorAll('.product-img__item')
 		.forEach(item => item.classList.remove('active'))
-	container.querySelector(`#${target}`).classList.add('active')
+	container.querySelector(`#${target}`)?.classList.add('active')
 
 	const nextButton = document.querySelector('.next')
 	const prevButton = document.querySelector('.prev')
@@ -174,7 +187,7 @@ const updateActiveSlide = (indexSlider, indexSlide) => {
 	}*/
 }
 
-const onSwiper = (index, swiper) => {
+const onSwiper = (index: number, swiper: SwiperClass) => {
 	sliders.value[index].swiper = swiper
 }
 </script>

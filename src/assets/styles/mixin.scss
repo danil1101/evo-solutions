@@ -3,6 +3,10 @@
 $mainColor: #535758;
 $greenColor: #4B9C8D;
 
+@function rem($px) {
+	$result: math.div($px, 16) + rem;
+	@return $result;
+}
 
 $fontFamily: 'Arial';
 $minWidth: 320;
@@ -39,10 +43,7 @@ $mobileSmall: em(479.98); // Телефоны S
 }
 
 //REM
-@function rem($px) {
-	$result: math.div($px, 16) + rem;
-	@return $result;
-}
+
 
 //EM
 @function em($px, $current: 16) {

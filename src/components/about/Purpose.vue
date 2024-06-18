@@ -26,7 +26,7 @@
 	</div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const stats = [
 	{
 		name: 'To become a leading provider of comprehensive services for business intelligence devices',

@@ -33,7 +33,7 @@
 	</div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const stats = [
 	{ name: 'Sales Service Center', value: '78+' },
 	{ name: 'Service Outlets', value: '1500+' },
