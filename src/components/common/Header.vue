@@ -17,14 +17,14 @@
 					</button>
 				</div>
 				<div class="hidden lg:flex lg:gap-x-12">
-					<router-link
+					<a
 						v-for="item in navigation"
 						:key="item.name"
-						:to="item.href"
+						:href="item.href"
 						class="text-lg font-semibold leading-6 text-gray-900"
 					>
 						{{ item.name }}
-					</router-link>
+					</a>
 				</div>
 				<div class="hidden lg:flex lg:flex-1 lg:justify-end">
 					<router-link
@@ -57,14 +57,14 @@
 						class="mt-2 divide-y divide-gray-500/10 h-full flex-col flex justify-between"
 					>
 						<div class="space-y-2 py-6">
-							<router-link
+							<a
 								v-for="item in navigation"
 								:key="item.name"
-								:to="item.href"
+								:href="item.href"
 								class="-mx-3 block px-3 py-2 text-xl font-semibold leading-7"
 							>
 								{{ item.name }}
-							</router-link>
+							</a>
 						</div>
 						<a
 							href="#footer"
@@ -86,9 +86,9 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-	{ name: 'Products', href: '/products' },
-	{ name: 'Services', href: '/services' },
-	{ name: 'About', href: '/about' }
+	{ name: 'Products', href: '/#/products' },
+	{ name: 'Services', href: '/#/services' },
+	{ name: 'About', href: '/#/about' }
 ]
 
 const mobileMenuOpen = ref(false)
