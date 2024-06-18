@@ -7,7 +7,7 @@
 				</h2>
 			</div>
 			<div class="mx-auto mt-10">
-				<img src="../../assets/images/services/certification.jpg" alt="" />
+				<img src="/images/services/certification.jpg" alt="" />
 			</div>
 		</div>
 	</div>

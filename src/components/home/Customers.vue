@@ -12,7 +12,7 @@
 				</p>
 			</div>
 			<div class="mx-auto mt-10">
-				<img src="../../assets/images/home/customers.png" alt="" />
+				<img src="/images/home/customers.png" alt="" />
 			</div>
 		</div>
 	</div>

@@ -5,11 +5,7 @@
 				<div class="md:flex md:justify-between gap-8 w-full">
 					<div class="mb-6 md:mb-0">
 						<a href="/">
-							<img
-								class="h-16 w-auto"
-								src="../../assets/images/logo-white.svg"
-								alt=""
-							/>
+							<img class="h-16 w-auto" src="/images/logo-white.svg" alt="" />
 						</a>
 					</div>
 					<div

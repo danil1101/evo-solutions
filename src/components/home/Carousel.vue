@@ -73,15 +73,11 @@ const slides = [
 
 <style scoped lang="scss">
 @import '../../assets/styles/mixin';
+
 .swiper {
 	width: 100%;
 	background: #f5f5f5;
-	//height: calc(100vh - 96px);
 	height: 100%;
-
-	@media (max-width: 1024px) {
-		height: 100%;
-	}
 }
 
 .slide {

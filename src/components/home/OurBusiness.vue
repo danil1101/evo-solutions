@@ -35,7 +35,7 @@
 			</div>
 			<div class="mx-auto mt-10 w-full">
 				<img
-					src="../../assets/images/home/our-business.png"
+					src="/images/home/our-business.png"
 					alt=""
 					class="w-full h-full rounded-2xl hidden lg:block"
 				/>
