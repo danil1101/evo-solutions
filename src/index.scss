@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/styles/mixin.scss';
+@import './assets/styles/font.scss';
+@import './assets/styles/null.scss';
+
+#app {
+  height: 100%;
+}
+
+.page {
+  margin-top: 96px;
+}
